@@ -1,0 +1,79 @@
+html {
+    overflow-y: scroll;
+}
+@media(min-width: 480px) {
+    .uk-float-left .uk-thumbnail {
+        margin-left: 20px;
+    }
+    .uk-float-right .uk-thumbnail {
+        margin-left: 20px;
+    }
+}
+.uk-navbar-brand:not(.uk-navbar-center) {
+    padding-left: 0;
+}
+.uk-navbar-brand.uk-active, .uk-navbar .uk-navbar-nav>li.uk-active>a {
+    color: #0064f1;
+}
+.uk-navbar-brand:hover, .uk-navbar-brand.uk-active:hover, .uk-navbar .uk-navbar-nav>li>a:hover {
+    color: #2d7eef;
+}
+.uk-nav-offcanvas>li>a {
+    padding: 6px 15px;
+}
+.uk-nav-offcanvas.teambr-nav-docs .uk-nav-header {
+    color: #888888;
+}
+.uk-nav-offcanvas.teambr-nav-docs>li>a:hover {
+    text-decoration: none;
+}
+.teambr-vertical-align-top {
+    vertical-align: top;
+}
+.teambr-nav-bar {
+    width: 100%;
+}
+.teambr-banner {
+    width: 100%;
+    height: 185px;
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../assets/img/banner.png')
+}
+.teambr-logo {
+    position: relative;
+    top: 18px;
+    height: 100;
+    width: 500;
+}
+.teambr-download-logo {
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+//Footer
+.teambr-footer .uk-subnav-line > li:before {
+    border-color: #ddd;
+}
+.teambr-footer-text {
+    border-color: #ddd;
+    color: lightgrey
+}
+.teambr-footer {
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 5px
+}
+.teambr-footer a {
+    color: #ddd !important;
+}
+.teambr-footer a:hover {
+    color: #fff !important;
+}
