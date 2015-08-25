@@ -25,27 +25,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/master.css">
-    <link rel="stylesheet" href="/css/components/autocomplete.min.css" />
-    <link rel="stylesheet" href="/css/components/sticky.min.css" />
-    <link rel="stylesheet" href="/css/teambr.css" />
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/uikit.js"></script>
-    <script src="./js/components/sticky.min.js"></script>
+    <link rel="stylesheet" href="/css/teambr.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/uikit.js"></script>
+    <script src="/js/components/sticky.min.js"></script>
+    <script src="/js/components/parallax.js"></script>
 </head>
 
 <body>
 
-    <div class="teambr-banner uk-hidden-small">
-        <div class="uk-container uk-container-center uk-position-relative">
-            <a href="./index.html">
-                <img class="teambr-logo" src="./assets/img/logo.png" />
-            </a>
-        </div>
-    </div>
-
-    <nav class="uk-navbar uk-margin-bottom teambr-nav-bar" data-uk-sticky>
+    <nav class="uk-navbar uk-margin-bottom  teambr-nav-bar" data-uk-sticky>
         <div class="uk-container uk-container-center">
-            <a href="/" class="uk-navbar-brand uk-hidden-small uk-active teambr-nav-text">Team BR Modding</a>
+            <a href="/" class="uk-navbar-brand uk-hidden-small uk-active">Team BR Modding</a>
             <a href="#teambr-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
             <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small uk-active uk-text-truncate">Team BR Modding</a>
             <ul class="uk-navbar-nav uk-hidden-small">
@@ -75,31 +66,26 @@
         </div>
     </div>
 
-    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-        <!-- Posts -->
+    <div class="uk-margin uk-margin-large-top uk-flex uk-flex-center uk-flex-middle" data-uk-parallax="{bg: '-120'}" style="background-image: url('http://i.imgur.com/X1E9yjR.png'); background-position: center;">
+        <div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
+            <div class="uk-panel-box  uk-container-center teambr-panel">
+                <div class="uk-container-center uk-grid uk-grid-width-medium-1-2">
+                    <div>
+                        <h1 class="uk-text-large uk-article-title  uk-margin-large-top">Team BR Modding</h1>
+                        <p class="uk-container-center uk-margin-large-bottom  uk-margin-top-remove uk-text-muted">
+                            The Team BR Modding organization is a sub group of the <a href="http://www.beyondrealitypack.com/">Beyond Reality Team. </a> The members of this organization are ones from the Beyond Reality team and are more or less the technical
+                            members of the team.</p>
 
-        <div class="uk-grid uk-container-center" data-uk-grid-margin>
-            <div class="uk-width-medium">
-                <!-- Welcome -->
-                <article class="uk-article uk-container-center">
-                    <h1 class="uk-article-title uk-container-center uk-text-center">Welcome To Team BR Moding</h1>
-                    <hr>
-                    <p class="uk-article-meta uk-container-center uk-text-center">Written by pauljoda on August, 22nd, 2015</p>
-                    <p>
-                        <img class="uk-margin-large-bottom uk-container-center" src="http://i.imgur.com/X1E9yjR.png">
-                    </p>
-                    <p class="uk-margin-large-bottom uk-text-large uk-margin-top-remove uk-text-muted uk-text-center uk-article-lead light-background">
-                        The Team BR Modding organization is a sub group of the <a href="http://www.beyondrealitypack.com/">Beyond Reality Team. </a> The members of this organization are ones from the Beyond Reality team and are more or less the technical
-                        members of the team. Primarily focused on mods, this group creates content relevant to the Minecraft community. Started by pauljoda and Dyonovan, the group has since moved on to create some very cool mods. Some of these mods include
-                        Neotech, Team BR Core (responsible for making some of the amazing things in the Beyond Reality Modpack possible), and more to come. They also work on mods imported to the group such as Modular Systems and Mob Tools.
-
-                        <br>
-                        <br> This site serves as a central hub for all their work. Here you will find documentation on their mods as well as other useful information.
-                    </p>
-                    <hr>
-                </article>
+                    </div>
+                    <div>
+                        <img class="uk-margin-large-top" src="/assets/img/logo.png">
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
         <!-- Team Header -->
         <div class="uk-grid" data-uk-grid-margin>
