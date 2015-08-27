@@ -2,85 +2,18 @@
 <html lang="en-US">
 
 <head>
-    <title>Team BR Modding</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="Team BR Modding" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/assets/img/logo.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:site" content="@pauljoda" />
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/master.css">
-    <link rel="stylesheet" href="/css/components/autocomplete.min.css" />
-    <link rel="stylesheet" href="/css/components/sticky.min.css" />
-    <link rel="stylesheet" href="/css/teambr.css" />
+    <title>Downloads</title>
+    <?php include('../includes/metaBuilder.php'); ?>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/uikit.js"></script>
     <script src="/js/components/sticky.min.js"></script>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-44687425-2', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body>
-    <nav class="uk-navbar uk-margin-bottom teambr-nav-bar" data-uk-sticky>
-        <div class="uk-container uk-container-center">
-            <a href="/" class="uk-navbar-brand uk-hidden-small uk-active teambr-nav-text">Team BR Modding</a>
-            <a href="#teambr-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-            <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small uk-active uk-text-truncate">Team BR Modding</a>
-            <ul class="uk-navbar-nav uk-hidden-small">
-                <li>
-                    <a href="/downloads/">Downloads</a>
-                </li>
-                <li>
-                    <a href="/documentation/">Documentation</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div id="teambr-offcanvas" class="uk-offcanvas">
-        <div class="uk-offcanvas-bar">
-            <ul class="uk-nav uk-nav-offcanvas">
-                <li class="uk-nav-header"></li>
-                <li class="uk-active">
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/downloads/">Downloads</a>
-                </li>
-                <li>
-                    <a href="/documentation/">Documentation</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <?php
+     include '../includes/googleAnalytics.php';
+        include '../includes/navBuilder.php';
+        ?>
 
     <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
         <h1 class="uk-heading-large">Downloads</h1>
@@ -332,28 +265,6 @@
         </ul>
 
     </div>
-
-
-    <footer class="teambr-footer">
-        <div class="uk-container uk-container-center uk-text-center">
-            <ul class="uk-subnav uk-subnav-line uk-flex-center">
-                <li>
-                    <a href="https://github.com/TeamBR-Modding" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="/documentation/">Documentation</a>
-                </li>
-            </ul>
-            <div class="uk-panel uk-container-center">
-                <p class="teambr-footer-text">Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-                </a>
-                <br />
-                <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">
-            </div>
-        </div>
-    </footer>
+    <?php include '../includes/footer.php' ?>
 </body>
-
 </html>
