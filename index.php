@@ -22,7 +22,7 @@
         <div class="uk-margin uk-margin-large-top uk-flex uk-flex-center uk-flex-middle" data-uk-parallax="{bg: '-120'}" style="background-image: url('http://i.imgur.com/X1E9yjR.png'); background-position: center;">
             <div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
                 <div class="uk-panel-box  uk-container-center teambr-panel">
-                    <div class="uk-container-center uk-grid uk-grid-width-medium-1-2">
+                    <div class="uk-grid uk-grid-width-medium-1-2 uk-container-center">
                         <div>
                             <h1 class="uk-text-large uk-article-title  uk-margin-large-top">Team BR Modding</h1>
                             <p class="uk-container-center uk-margin-large-bottom  uk-margin-top-remove uk-text-muted">
@@ -30,8 +30,8 @@
                                 technical members of the team.</p>
 
                         </div>
-                        <div>
-                            <img class="uk-margin-large-top" src="/assets/img/logo.png">
+                        <div class="shittylogo">
+                            <img src="/assets/img/logo.png">
                         </div>
                     </div>
                 </div>

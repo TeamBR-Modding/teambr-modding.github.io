@@ -1,3 +1,5 @@
+<div class="push"></div>
+
 <footer class="teambr-footer">
     <div class="uk-container uk-container-center uk-text-center">
         <ul class="uk-subnav uk-subnav-line uk-flex-center">

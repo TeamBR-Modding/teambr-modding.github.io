@@ -1,6 +1,3 @@
-html {
-    overflow-y: scroll;
-}
 .anchor-teambr {
     display: block;
     position: relative;
@@ -18,7 +15,16 @@ html {
 .teambr-panel {
     width: 70%;
 }
-//Footer
+
+.shittylogo {
+    margin: auto;
+}
+
+footer,.push {
+    height: 9.196em;
+}
+
+/*Footer*/
 .teambr-footer .uk-subnav-line > li:before {
     border-color: #ddd;
 }
@@ -30,11 +36,11 @@ html {
     background-color: black;
     padding-bottom: 10px;
     padding-top: 5px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
 }
 .teambr-footer a {
-    color: #ddd !important;
+    color: #ddd;
 }
 .teambr-footer a:hover {
-    color: #fff !important;
+    color: #fff;
 }

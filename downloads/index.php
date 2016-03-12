@@ -4,9 +4,9 @@
 <head>
     <title>Downloads</title>
     <?php include('../includes/metaBuilder.php'); ?>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/uikit.js"></script>
-    <script src="/js/components/sticky.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/uikit.js"></script>
+    <script src="../js/components/sticky.min.js"></script>
 </head>
 
 <body>
