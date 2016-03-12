@@ -20,11 +20,11 @@
     margin: auto;
 }
 
+/*Footer*/
 footer,.push {
     height: 9.196em;
 }
 
-/*Footer*/
 .teambr-footer .uk-subnav-line > li:before {
     border-color: #ddd;
 }
